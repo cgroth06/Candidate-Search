@@ -2,7 +2,7 @@
 
 ## Description
 
-Candidate Search is a static web app build with react, vite, and typescript. It calls a github Api to retrive user info. You can save a candidate to a table or delete th them and move on to another candidate.
+Candidate Search is a static web app build with react, vite, and typescript. It calls a github Api to retrive user info. You can save a candidate to a table or delete them and move on to another candidate.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,11 +15,11 @@ Candidate Search is a static web app build with react, vite, and typescript. It 
 
 ## Installation
 
-This web app is live HERE. To use this repo, npm i, and npm run dev to experience it locally.
+To use this repo, npm i, and npm run dev to experience it locally.
 
 ## Usage
 
-Here is a link to the deployed app.
+[Here is a link to the deployed app.](https://candidate-search-1-zyhf.onrender.com/)
 
 ## Contributions
 
