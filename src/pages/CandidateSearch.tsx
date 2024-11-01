@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { searchGithub, searchGithubUser } from '../api/API';
 import { ICandidate } from '../interfaces/Candidate.interface';
 
@@ -39,6 +39,10 @@ const CandidateSearch = () => {
     }
   };
 
+  useEffect(() => {
+    loadNewCandidate();
+  }, []);
+
   return (
     <div>
     <h1>Candidate Search</h1>
@@ -46,13 +50,13 @@ const CandidateSearch = () => {
       
       {candidate ? (
         <div className="innercard" key={candidate.id}>
-          <img src={candidate.avatar_url} alt={`Avatar for ${candidate.login}`} style={{height: "200px"}}/>
+          <img src={candidate.avatar_url} alt={`Avatar for ${candidate.login}`} style={{width: "100%", padding: "none"}}/>
           <div>
             <h3>Name:{candidate.name}</h3>
             <p>Username:{candidate.login}</p>
-            <p>Location:{candidate.location}</p>
-            <p>Email:{candidate.email}</p>
-            <p>Company:{candidate.company}</p>
+            <p>Location:{candidate.location || " NA"}</p>
+            <p>Email:{candidate.email || " NA"}</p>
+            <p>Company:{candidate.company || " NA"}</p>
             <a href={candidate.html_url}>Website</a>
 
           </div>

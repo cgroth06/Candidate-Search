@@ -17,7 +17,7 @@ const SavedCandidates = () => {
   };
 
   return (
-    <div>
+    <div style={{margin: "40px"}}>
       <h1>Potential Candidates</h1>
       {savedCandidates.length > 0 ? (
         <table>
@@ -30,6 +30,7 @@ const SavedCandidates = () => {
               <th>Email</th>
               <th>Company</th>
               <th>Website</th>
+              <th>Remove</th>
             </tr>
           </thead>
           <tbody>
@@ -38,11 +39,11 @@ const SavedCandidates = () => {
                 <td>
                   <img src={candidate.avatar_url} alt={`Avatar for ${candidate.login}`} style={{height: "100px"}}/>
                 </td>
-                <td>{candidate.name}</td>
+                <td>{candidate.name ? candidate.name : "No Email on Record"}</td>
                 <td>{candidate.login}</td>
-                <td>{candidate.location}</td>
+                <td>{candidate.location ? candidate.location : "No Email on Record"}</td>
                 <td>{candidate.email ? candidate.email : "No Email on Record"}</td>
-                <td>{candidate.company}</td>
+                <td>{candidate.company ? candidate.company : "No Email on Record"}</td>
                 <td>
                   <a href={candidate.html_url}>Website</a>
                 </td>

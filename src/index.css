@@ -82,6 +82,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 }
 
 tr {
@@ -98,11 +99,13 @@ tbody tr:nth-child(odd) {
   display: flex;
   justify-content: flex-start;
   padding: 1em 2em;
+  text-decoration: none;
 }
 
 .nav-item {
   padding: 0 0.5rem;
   list-style: none;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -119,13 +122,6 @@ tbody tr:nth-child(odd) {
   table-layout: fixed;
 }
 
-.card {
-  background-color: #333333;
-
-  border-radius: 10px;
-  padding: 1em;
-  margin: 1em;
-}
 
 .innercard {
   background-color: #000;
