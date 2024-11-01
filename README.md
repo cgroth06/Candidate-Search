@@ -1,33 +1,56 @@
-# React + TypeScript + Vite
+# Candidate Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Candidate Search is a static web app build with react, vite, and typescript. It calls a github Api to retrive user info. You can save a candidate to a table or delete th them and move on to another candidate.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Credits](#credits)
+- [License](#license)
+- [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This web app is live HERE. To use this repo, npm i, and npm run dev to experience it locally.
 
-* Configure the top-level `parserOptions` property as follows:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Here is a link to the deployed app.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Contributions
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.#Candidate-Search
+Please do not steal, give credit!
+
+## Tests
+
+NA
+
+## Credits
+
+This app was developed with assistance from BSC tutors and the Xpert Learning assistant.
+
+## License
+
+![MIT License](assets/mit.svg)
+
+The MIT License
+
+Copyright 2024 Chris Groth
+
+https://opensource.org/licenses/MIT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contact
+
+GitHub Username: cgroth06
+
+Email: christopher.m.groth@gmail.com
