@@ -47,7 +47,7 @@ const SavedCandidates = () => {
                 <td>
                   <a href={candidate.html_url}>Website</a>
                 </td>
-                <button onClick={() => candidate.id !== undefined && handleRemovedCandidate(candidate.id)} style={{backgroundColor: "red"}}>-</button>
+                <button onClick={() => candidate.id !== undefined && handleRemovedCandidate(candidate.id)} style={{ margin: "20px", backgroundColor: "red"}}>-</button>
               </tr>
             ))}
           </tbody>
